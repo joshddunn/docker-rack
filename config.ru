@@ -1,3 +1,3 @@
-require_relative 'app/main.rb'
+require_relative 'my_rack_middleware.rb'
 
-run MyApp.new
+run MyRackMiddleware.new

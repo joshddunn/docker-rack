@@ -1,4 +1,4 @@
-class MyApp
+class MyRackMiddleware
   def call(env)
     serve Rack::Request.new(env).path_info
   end
